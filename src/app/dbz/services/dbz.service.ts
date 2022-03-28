@@ -21,6 +21,9 @@ export class DbzService {
   }
 
   constructor() {
-    console.log('Service running!')
+  }
+
+  agregarPersonaje(personaje:Personaje){
+    this._personajes.push(personaje);
   }
 }
