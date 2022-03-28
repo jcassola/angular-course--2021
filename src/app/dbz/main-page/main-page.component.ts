@@ -26,6 +26,7 @@ export class MainPageComponent {
   };
 
   agregarNuevoPersonaje(personaje: Personaje){
+    // debugger;
     this.personajes.push(personaje);
   }
 }
